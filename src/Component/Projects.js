@@ -3,7 +3,7 @@ import React ,{useState, useEffect} from 'react';
 import  {Card, CardHeader, Grid} from '@material-ui/core';
 import CardContent from "@material-ui/core/CardContent";
 import Typography from "@material-ui/core/Typography";
-import Earlier from './Card'
+import Earliest from './Card'
 
 
 
@@ -50,7 +50,7 @@ import Earlier from './Card'
        {item.status}
 
       </CardContent>
-    <p> <button onClick= { Earlier}>Earlier</button></p>
+    <p> <button onClick= {Earliest}>Earlier</button></p>
     <p> <button onClick= { item.status}>Latest</button></p>
   </Card>
   </Grid>
